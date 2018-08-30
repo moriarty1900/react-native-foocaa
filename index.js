@@ -1,12 +1,16 @@
-import FCListView from './lib/list-view'
-import FCItem from './lib/list-item'
-import FCButton from './lib/button'
-import Theme from './lib/theme'
+import FCListView from './list-view'
+import {ListItem,InputItem} from './list-item'
+import FCButton from './button'
+import FCPageHolder from './page-holder'
+import Tag from './tag'
+import Theme from './theme'
 
-
-module.exports = {
-    FCListView,
-    FCItem,
-    FCButton,
-	Theme
+export {
+	FCListView,
+	ListItem,
+	FCButton,
+	InputItem,
+	FCPageHolder,
+	Tag,
+	Theme,
 }
