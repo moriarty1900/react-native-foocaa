@@ -1,14 +1,16 @@
-import FCListView from './lib/Components/ListView'
-import {ListItem,InputItem} from './lib/Components/Item'
-import FCButton from './lib/Components/Button'
-import FCPageHolder from './lib/Components/PageHolder'
-import Tag from './lib/Components/Tag'
-import AutoHeightWebView from './lib/Components/AutoHeightWebView'
+import FCListView from './Components/ListView'
+import {ListItem,InputItem} from './Components/Item'
+import FCButton from './Components/Button'
+import FCPageHolder from './Components/PageHolder'
+import Tag from './Components/Tag'
+import AutoHeightWebView from './Components/AutoHeightWebView'
+import ImageViewer from './Components/ImageViewer'
+import SearchBar from './Components/SearchBar'
 
-import {HUD} from './lib/APIs/HUD'
-import {Encryptor} from './lib/APIs/Encryptor'
+import {HUD} from './APIs/HUD'
+import {Encryptor} from './APIs/Encryptor'
 
-import Theme from './lib/theme'
+import Theme from './theme'
 
 export {
 	FCListView,
@@ -20,5 +22,7 @@ export {
 	AutoHeightWebView,
 	Theme,
 	HUD,
-	Encryptor
+	Encryptor,
+	ImageViewer,
+	SearchBar
 }

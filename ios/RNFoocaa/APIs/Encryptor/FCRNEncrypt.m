@@ -19,7 +19,7 @@
 @implementation FCRNEncrypt
 
 
-RCT_EXPORT_MODULE(EncryptModule);
+RCT_EXPORT_MODULE(Encryptor);
 
 RCT_EXPORT_METHOD(encrypt:(NSString *)text key:(NSString*)key resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject){
   
