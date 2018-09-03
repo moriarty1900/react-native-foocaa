@@ -9,7 +9,7 @@
   "dependencies": {
     "immutable": "^3.*",
     "react-native-image-zoom-viewer": "^2.2.15",
-    "react-native-foocaa-link-scripts": "^1.0.0"
+    "react-native-foocaa-link-scripts": "^1.*"
   },
   "rnpm": {
     "commands": {
