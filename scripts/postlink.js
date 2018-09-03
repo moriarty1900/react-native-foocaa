@@ -20,9 +20,9 @@ let promise = Promise.resolve();
 if (rnpmlink.ios.checkIfAppDelegateExists()) {
     promise
         .then(() => {
-            const code = 'BMKMapManager *mapManager = [[BMKMapManager alloc]init];  // Initialize BMKMapManager \n' +
-              'BOOL ret = [self.mapManager start:AppKey  generalDelegate:nil];\n' +
-              'if (!ret) { NSLog(@"manager start failed!"); }';
+            const code = '  BMKMapManager *mapManager = [[BMKMapManager alloc]init];  // Initialize BMKMapManager \n' +
+              '  BOOL ret = [self.mapManager start:@"BaiduMapKey"  generalDelegate:nil];\n' +
+              '  if (!ret) { NSLog(@"manager start failed!"); }';
             return rnpmlink.ios.initInAppDelegate('#import <RNFoocaa/RNFoocaa.h>', code);
         })
         .catch((e) => {
